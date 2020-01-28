@@ -4,7 +4,7 @@ const myList = document.querySelector('.myList')
 
 menu.addEventListener('click',()=>{
     if(myList.style.display === 'none'){
-        myList.style.display = 'block'
+        myList.style.display = 'inline-block'
     }else{
 
         myList.style.display = 'none';

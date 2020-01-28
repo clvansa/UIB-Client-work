@@ -61,7 +61,7 @@ section{
 }
 
 .sectionOne{
-    background-image: url(./img/_a1a8429.jpg);
+    background-image: url(./img/a1a8429.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,6 +182,8 @@ nav .brand{
 }
 .myList{
     display: none;
+    width: auto;
+    padding: 0;
     
 }
 
@@ -239,6 +241,7 @@ footer{
 }
 .contact{
     text-align: center;
+    text-decoration: none;
 }
 
 .hours{
@@ -251,6 +254,3 @@ footer{
 }
 
 
-.active{
-    display: none;
-}
