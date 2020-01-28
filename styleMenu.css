@@ -1,0 +1,110 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+}
+
+
+/* Hier Start Menu Section  */
+.eatBox{
+    padding-top: 100px;
+    text-align: center;
+}
+.eat{
+    display: flex;
+    justify-content: center;
+}
+.imageBox{
+ margin: auto;
+    width: 80%;
+}
+img{
+    width: 100%;
+}
+
+.dessert{
+    text-align: center;
+}
+/* Hier End Menu Section  */
+
+/* Hier Gallery Section  */
+.gallory{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    width: 40%;
+}
+.two{
+width: 60%;
+
+
+
+}
+.three,.four{
+    width: 50%;
+}
+
+.six , .seven{
+    width: 50%;
+}
+.five,.nine{
+    width: 100%;
+}
+/* Hier Start Gallery Section  */
+
+/* Hier Start Contact Section  */
+
+.contactbox{
+    text-align: center;
+    margin-top: 150px;
+   
+}
+.info{
+    text-align: center;
+    min-height: 59vh;
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:525px){
+
+    .eat{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+.gallory{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+.one, .two, .three, .four,.five, .six, .seven, .nine{
+    width: 100% ;
+    
+}
+
+.contactbox{
+    margin-top: 100px;
+}
+
+
+
+}

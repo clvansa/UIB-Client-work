@@ -1,0 +1,256 @@
+body,html{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: livvic;
+}
+
+
+
+nav{
+    font-family: 'Grand Hotel', cursive;
+    width: 100%;
+    position: fixed;
+    background-color: black ;
+    display: flex;
+    justify-content: space-between;
+}
+nav .brand{
+    width: 100px;
+    height: 100px;
+}
+
+nav .brand img{
+    width: 100%;
+    height: 100%;
+}
+
+.myList{
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+.myItem{
+display: inline-block;
+
+}
+
+.myList .myItem a {
+    text-decoration: none;
+    color: wheat;
+    display: block;
+    padding: 20px ;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+}
+
+.menu {
+    display: none;
+    margin: 30px 20px 0 0;
+}
+.menu .fa {
+    color: wheat;
+    font-size: 2em;
+    padding:
+}
+section{
+    
+}
+
+.sectionOne{
+    background-image: url(./img/_a1a8429.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.sectionTwo{
+    background-image: url(./img/Top-restaurant.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.content{
+    max-width: 800px;
+    min-height: 50vh;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: auto 20px;
+
+}
+.content h1{
+    margin: 0;
+    font-size: 4rem;
+}
+
+.content  p {
+    font-size: 1.3rem;
+    line-height: 30px;
+    
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+}
+.social h1{
+    margin-left:-40px;
+    
+}
+.social .fa{
+    font-size: 2em;
+    font-display: block;
+    transition: all .5s;
+    cursor: pointer;
+    margin: auto 20px;
+  
+   
+}
+
+.social i:nth-child(2):hover{
+    color: #3b5998;
+}
+
+.social i:nth-child(3):hover{
+    color: #c32aa3;
+}
+
+.social i:nth-child(4):hover{
+    color: #fffc00;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:525px){
+nav .brand{
+   visibility: hidden;
+}
+.myList{
+    display: none;
+    
+}
+
+.myItem {
+    padding: 0px;
+    margin: -10px;
+
+}
+nav{
+    height: 50px;
+}
+
+
+.sectionOne , .sectionTwo{
+max-height: 50vh;
+ background-attachment: scroll; 
+}
+.content h1{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.content  p {
+    font-size: 1rem;
+    line-height: 30px;
+    
+}
+
+.menu {
+    display: block;
+    margin: 10px 20px 0 0;
+}
+
+footer{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    order: -1;
+    margin: auto;
+    text-align: center;
+}
+
+.social h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.social i{
+    padding-left: 30px;
+   
+
+
+}
+.contact{
+    text-align: center;
+}
+
+.hours{
+    text-align: center;
+}
+
+
+
+
+}
+
+
+.active{
+    display: none;
+}
